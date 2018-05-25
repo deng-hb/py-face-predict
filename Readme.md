@@ -13,10 +13,5 @@ pip3 install opencv-python
 
 其它他的都缺什么`pip3 install <package name>`
 
-### 要用到的opencv
-```
-git clone https://github.com/opencv/opencv.git
-```
-
 也就跑了一遍，没怎么明白
 
