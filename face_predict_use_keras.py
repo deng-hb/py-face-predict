@@ -21,7 +21,7 @@ if __name__ == '__main__':
     cap = cv2.VideoCapture(int(sys.argv[1]))
     
     #人脸识别分类器本地存储路径
-    cascade_path = "/Users/denghb/Documents/py/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml"    
+    cascade_path = "haarcascade_frontalface_alt2.xml"    
     
     #循环检测识别人脸
     while True:

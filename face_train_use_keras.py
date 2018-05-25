@@ -212,7 +212,7 @@ if __name__ == '__main__':
     
     dataset = Dataset('./images/')    
     dataset.load()
-    '''
+    
     
     model = Model()
     model.build_model(dataset)
@@ -228,3 +228,5 @@ if __name__ == '__main__':
     model = Model()
     model.load_model(file_path = './model/face.model.h5')
     model.evaluate(dataset)
+
+    '''

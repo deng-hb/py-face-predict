@@ -13,7 +13,7 @@ def catchVideo(window_name, camera_id, max_num, image_path) :
     cap = cv2.VideoCapture(camera_id)
 
     # 人脸识别分类器
-    classfier = cv2.CascadeClassifier("/Users/denghb/Documents/py/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml")
+    classfier = cv2.CascadeClassifier("haarcascade_frontalface_alt2.xml")
 
     # 颜色(RGB)
     color = (0, 255, 0)
